@@ -1,0 +1,26 @@
+
+
+
+main{
+    width: 80%;
+    height: auto;
+    padding:  20px;
+    margin: 10px auto;
+    background-color:rgb(227, 227, 227);
+    border-radius: 20px;
+    box-shadow:rgb(63, 63, 63) 6px 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#banner{
+    width:90%;
+    height: 300px;
+    border-radius: 20px;
+    overflow:hidden;
+    margin: 0 auto;
+}
+#banner img{
+    width: 100%;
+}
+
+
