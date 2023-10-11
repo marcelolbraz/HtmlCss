@@ -1,0 +1,67 @@
+main{
+width: 80%;
+margin: 20px auto;
+background-color: rgb(238, 238, 238);
+box-shadow: gray 5px 5px;
+border-radius: 5px;
+padding: 20px;
+}
+#secaoProdutos{
+    width: 100%;
+    background-color: darkgreen;
+    /* posicionamento padrão: esquerda, topo e em coluna */
+    /*display : flex, muda para linha */
+    display: flex;
+    /*row - linha*/
+    flex-direction: row; /* muda a direçao do flexbox */
+    /*reverse - inverte */
+    /*column - coluna */
+    
+    /* flex-directon: column coluna uma embaixo da outra  e column reverse coluna inverte*/
+    justify-content: center; /* muda a orientação horizontal do flexbol */
+/*justify-content: center ; centraliza no centro e justify content space=betweem coloca espaço entre eles  justify content rigt e left e direita e esquera e space-around divide mais;*/
+align-items: start; /* muda a orientação vertical do flexbox align-cotents serve para varias secoes e align-items serve para itens*/
+flex-wrap: wrap; /* evita distorcoes com falta de espaco */
+gap: 20px;/* espacamento entre elementos */
+}
+.produto{
+width:200px;
+height: 300px;
+margin: 10px;
+background-color: white;
+padding: 10px;
+border-radius: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imagemProduto{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+
+.imagemProduto img{
+    width: 100%;
+    height: 100%;
+}
+
+}
+.decricaoProduto{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(red, green, blue);
+}
+h4{
+    font-size: 16pt;
+    margin: 10px opx;
+    color:purple
+    text-align
+}
+.textoDescricao{
+    margin: 10px;
+    color:brown
+}
+.preco{
+    font-weight: bold;
+    font-size: 14pt;
+    color:chartreuse;
+}
